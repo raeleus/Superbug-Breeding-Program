@@ -1,0 +1,171 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	game: {
+		file: font-game-export.fnt
+	}
+	game-big: {
+		file: font-game-big-export.fnt
+	}
+	game-small: {
+		file: font-game-small-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	button-down: {
+		r: 0.22
+		g: 0.22
+		b: 0.22
+		a: 1
+	}
+	button-over: {
+		r: 0.86
+		g: 0.86
+		b: 0.86
+		a: 1
+	}
+	gray: {
+		r: 0.15333334
+		g: 0.15333334
+		b: 0.15333334
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	yellow: {
+		r: 1
+		g: 1
+		b: 0
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	icon-biohazard-large-black: {
+		name: icon-biohazard-large
+		color: black
+	}
+	icon-gas-mask-black: {
+		name: icon-gas-mask
+		color: black
+	}
+	icon-warning-black: {
+		name: icon-warning
+		color: black
+	}
+	icon-gas-mask-gray: {
+		name: icon-gas-mask
+		color: gray
+	}
+	icon-warning-gray: {
+		name: icon-warning
+		color: gray
+	}
+	title-bg-black: {
+		name: title-bg
+		color: black
+	}
+	button-down: {
+		name: button
+		color: button-down
+	}
+	button-over: {
+		name: button
+		color: button-over
+	}
+	slider-knob-over: {
+		name: slider-knob
+		color: button-over
+	}
+	slider-knob-down: {
+		name: slider-knob
+		color: button-down
+	}
+	list-yellow: {
+		name: list
+		color: yellow
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: icon-warning-black
+		imageDown: icon-warning-black
+		imageOver: icon-warning-gray
+		font: font
+		fontColor: black
+		downFontColor: black
+		overFontColor: gray
+	}
+	gasmask: {
+		imageUp: icon-gas-mask-black
+		imageDown: icon-gas-mask-black
+		imageOver: icon-gas-mask-gray
+		font: font
+		fontColor: black
+		downFontColor: black
+		overFontColor: gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: black
+	}
+	title: {
+		font: title
+		fontColor: yellow
+		background: title-bg-black
+	}
+	game: {
+		font: game
+		fontColor: black
+	}
+	game-small: {
+		font: game-small
+		fontColor: black
+	}
+	game-big: {
+		font: game-big
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		knobOver: slider-knob-over
+		knobDown: slider-knob-down
+		background: slider
+		knob: slider-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: game
+		fontColor: black
+		downFontColor: white
+		disabledFontColor: black
+		up: button
+		down: button-down
+		over: button-over
+		disabled: button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
